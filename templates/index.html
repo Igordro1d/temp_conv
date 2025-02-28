@@ -17,8 +17,9 @@
                 </div>
             </nav>
         </section>
+        <div style="clear:both;"></div>
         <div id="all-conversion-sections">
-            <section id="temperature">
+            <section id="temperature" class="b temperature">
                 <div id="temp">
                     <figure>
                         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="200px"/>
@@ -33,10 +34,14 @@
                             <input type="number" id="f"><br/>
                             <label for="Temperature">Fahrenheit</label><br/>
                         </fieldset>
+                        <aside>
+                            To convert Celsius to Fahrenheit yourself, use this formula replacing the `C` with your temperature in Celsius: (C × 9/5) + 32
+                        </aside>
                     </article>
                 </div>
+                <div style="clear:both;"></div>
             </section>
-            <section id="weight">
+            <section id="weight" class="b weight">
                 <div id="weight">
                     <figure>
                         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" width="200px"/>
@@ -51,10 +56,14 @@
                             <input type="number" id="lbs"><br/>
                             <label for="Weight">Pounds</label><br/>
                         </fieldset>
+                        <aside>
+                            To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205
+                        </aside> 
                     </article>
                 </div>
             </section>
-            <section id="distance">
+            <div style="clear:both;"></div>
+            <section id="distance" class="b distance">
                 <div id="distance">
                     <figure>
                         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png" width="200px"/>
@@ -69,11 +78,15 @@
                             <input type="number" id="miles"><br/>
                             <label for="Distance">Miles</label><br/>
                         </fieldset>
+                        <aside>
+                            To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilmeters: km &divide; 1.609
+                        </aside>
                     </article>
                 </div>
             </section>
+            <div style="clear:both;"></div>
         </div>
-        <div id="go-home">
+        <div id="go-home" class="iconbutton">
             <a href="#home">
                 <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
             </a>
