@@ -1,0 +1,55 @@
+body {
+    margin: 10px;
+    background-color: rgb(194, 148, 221);
+}
+#home {
+    background-color: #c572ef;
+    margin: -1cm -1cm 0;
+    padding: 2cm 0 2cm;
+}
+header {
+    font-size: 30px;
+    color: purple;
+    float: left;
+    padding-left: 2cm;
+}
+.nav-bar {
+    float: right;
+    padding-right: 1cm;
+}
+.nav-button {
+    color: lightgray;
+    background-color:   #483355;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3mm;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: #382742;
+}
+
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img {
+    width: 200px
+}
+
+figcaption {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
