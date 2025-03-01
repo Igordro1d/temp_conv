@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Unit Conversions</title>
         <link rel="stylesheet" href="../static/styles.css">
+        <script src="../scripts/script.js"></script>
     </head>
     <body>
         <section id = "home">
@@ -26,11 +27,11 @@
                         <figcaption>Celsius to Fahrenheit Conversion</figcaption>
                     </figure>
                     <article>
-                        <fieldset>
+                        <fieldset>  
                             <legend>Temperature</legend>
                             <label for="Temperature">Celsius</label><br/>
                             <input type="number" id="c"><br/>
-                            <button id="temperature">Convert</button><br/>
+                            <button id="convert-temp" onclick="CelsiusToFahrenheit()">Convert</button><br/>
                             <input type="number" id="f"><br/>
                             <label for="Temperature">Fahrenheit</label><br/>
                         </fieldset>
@@ -52,7 +53,7 @@
                             <legend>Weight</legend>
                             <label for="Weight">Kilograms</label><br/>
                             <input type="number" id="kg"><br/>
-                            <button id="weight">Convert</button><br/>
+                            <button id="ceonvert-weight" onclick="KgToPound()">Convert</button><br/>
                             <input type="number" id="lbs"><br/>
                             <label for="Weight">Pounds</label><br/>
                         </fieldset>
@@ -74,7 +75,7 @@
                             <legend>Distance</legend>
                             <label for="Distance">Kilometers</label><br/>
                             <input type="number" id="km"><br/>
-                            <button id="distance">Convert</button><br/>
+                            <button id="convert-distance" onclick="KmToMiles()">Convert</button><br/>
                             <input type="number" id="miles"><br/>
                             <label for="Distance">Miles</label><br/>
                         </fieldset>
