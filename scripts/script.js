@@ -21,7 +21,7 @@ function KgToPound(){
         const kgInput = document.getElementById("kg");
         const kg = kgInput.value;
         if (isNaN(kg) || kg < 0){
-            ("Invalid input");
+            console.error("Invalid input");
             return;
         }
         const lb = celsius * 9 / 5 + 32;
@@ -36,12 +36,13 @@ function KgToPound(){
 
 function KmToMiles(){
     try{
-        const km = document.getElementById("km");
-        const miles = km.value * 0.62137;
+        const kmInput = document.getElementById("km");
+        const km = kmInput.value
         if (isNaN(km) || km < 0){
             console.error("Invalid input");
             return;
         }
+        const miles = km * 0.62137;
         document.getElementById("miles").value = miles;
     }
     catch{
